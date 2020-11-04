@@ -1,0 +1,239 @@
+body{
+    background: linear-gradient(to right, #000, #111 30%, #111 70%, #000 );
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align : center;
+     color:#FFF;
+}
+
+#main_block{
+    text-align : center;
+    vertical-align: top;
+}
+
+#text_block_first{
+    vertical-align: top;
+    display: inline-block;
+    width: 30vh;
+}
+
+#text_block_second{
+    vertical-align: top;
+    display: inline-block;
+    width: 30vh;
+}
+
+#block_for_photo{
+    height: 80vh;
+    text-align : center;
+    display: inline-block;
+}
+
+#my_photo{
+    max-width: auto;
+    max-height: 100%;
+    border-radius: 0 300px;;
+}
+
+.main_text{
+    color:#FFF;
+    }
+
+
+
+
+
+
+
+
+/*
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #F4F4F4;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: #818081;
+    font-weight:700;
+    margin: 3px;
+}
+
+
+.clearfix {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.cards{
+	width: 100%; 
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+	margin-bottom:20px;
+	  
+}
+
+.cards__card {
+       float: left;
+       text-align: left;
+       margin-top: 0px;
+       margin-right: 35px;
+       font-weight:700;
+       word-spacing:0.1px;
+          border: 1px solid red; /* устанавливаем границы элемента 
+}
+
+
+.cards :last-child {
+    margin-right: 0px;
+}
+
+
+
+.cards__card__field {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    width: 320px; 
+    height: 210px; 
+    border-radius: 15px;
+    background:white;
+    box-shadow: 0.0em 15px 2em 5px rgba(216,216,216,1);
+    padding-left: 30px;
+    padding-top: 0px;
+}
+.logo{
+    text-align: right;
+    margin: 15px;
+}
+.logo-image{
+    visibility: hidden;
+}
+
+.input-card {	
+    border:0;
+    border-bottom: 1px solid black;	
+}
+
+.input-card-red {	
+    border:0;
+    border-bottom: 1px solid red;	
+}
+
+
+.cards__card__field__footcer__dcode {
+    display: inline-block;
+    
+}
+.card-data{
+	margin-right:70px;
+}
+.card-data:input {
+	font-size:30px;
+}
+
+.help {
+    font-size: 8px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.vehicle2__help {
+    color: #818081;
+    border: 1px solid #818081;
+}
+
+.downside{
+	width: 100%;
+	margin-left:10px;
+	color:#818081;
+	display: inline-block;
+	text-align: left;
+}
+
+.downside__input{
+	display: inline-block;
+    text-align: left;
+	float:left;
+	margin-right:30px;
+	
+}
+
+.downside__input2{
+	display: inline-block;
+    text-align: left;
+	float:left;
+	margin-right:50px;
+}
+.box-input{
+    display: inline-block;
+    border: 0.5px solid #818081;
+    margin:0px 0px 10px 0px;
+    background-color:white;
+    vertical-align: top;
+}
+.input-summ{
+    font-size: 16px;
+	width: 280px;
+    border: none;
+    margin: 10px;
+}
+
+.currency{
+    margin-right: 10px;
+    font-weight:700;
+}
+.currency-hidden{
+    visibility: hidden;
+}
+
+.enter {
+	width: 100%;
+	margin-left:10px;
+	display: inline-block;
+	text-align: left;
+}
+
+.enter__button{
+	border:0;
+	float:left;
+	width: 350px;
+	height: 30px;
+	color:white;
+	font-size:15px;
+	background-color:#49914D;
+}
+
+.box{
+    margin-left:10px;
+}
+.colorr{
+    width: 100px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0.0em 5px 2em 8px rgba(216,216,216,1);
+}
+
+.red-button{
+    background: red;
+}
+
+.blue-button{
+     background: blue;
+}
+
+.green-button{
+    background: green;
+}
+
+.fullcardnumber{}
+.col{}
+*/

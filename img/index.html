@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test task</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	<!-- верхняя полоса -->
+<div class="bar"> </div>  
+
+	<!-- основной блок с фото и текстом резюме -->
+<div id="main_block">
+
+	<!-- фото -->
+	<div id="block_for_photo">
+		<img id="my_photo" src="img/my_photo2.jpg" alt="my photo">
+	</div>
+	
+	<!-- ФИО -->
+	<div id="block_for_name" class="main_text">
+		<H1>Аверкин <br> Андрей Валерьевич</H1>
+		г.Гомель, возраст 40 лет
+	</div>
+	
+	<!-- Текст О себе -->
+	
+
+</div>
+<div class="about_mysalf">
+	<p>О себе. По окончанию школы поступил в учреждение образования "Белорусский государственный университет транспорта" на электротехнический факультет, который в последствии и закончил по специальности инженер-электрик. Более-менее серьезную работу начал в этом же университете техником на кафедре физики, а позднее ведущим инженером кафедры "Автоматика и телемеханика". В 2007 году решил координально сменить деятельность и поступил на службу в органы и подразделения МЧС на должность инженера части связи. В 2011 году закончил институт переподготовки и повышения квалификации МЧС получив специальность "Инженер по предупреждению и ликвидации ЧС". С 2011 по 2013 год осуществлял работу главного энергетика Гомельского областного управления МЧС. В настоящий момент являюсь начальником центра маркетинга, договорной работы и вещевого обеспечения Гомельского областного управления МЧС. Желание реализовать себя в програмировании было давно, начиная со школьных лет, где мной была выиграна районная олимпиада по информатике, однако, как наверное и у многих, жизнь отодвинула эту мечта на второй план. Уткнувшись в потолок своих возможностей на своей работе, я ощутил острую потребность в дальшем развитии. В последние 2 года начал изучать английский язык, смотреть видео и читать книги по програмированию, а так же заниматься спортом. На данном этапе мечтаю найти хорошую программу обучения, а так же наставника, помощь которых позволит стать хорошим специалистом в области разработки сайтов и приложений, что в свою очередь даст возможность работать и развиваться в команде всемирноизвестной компании, такой как Epam.</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--
+<form action="#" name="Test">
+
+<div class="field">
+           <div class="cards">
+                <div class="cards__card card-sender">
+                    <h2 class="card-name">
+                       Данные отправителя
+                    </h2>
+                    <div class="cards__card__field">
+                        <div class="logo logo-hidden">
+                            <img class="logo-image" src="img/visa.svg" alt="">
+                        </div>
+                        <p class="text-in-card number-card">
+                       Номер карты
+                       </p>
+
+                       <input type="text" id="number-sender" class="input-card fullcardnumber" pattern="[0-9]{16}" size=40% maxlength="16">
+                        <br>
+
+                       <div class="cards__card__field__footer">
+                           <div class="cards__card__field__footcer__dcode card-data">
+                               <p class="text-in-card">Срок действия</p>
+                               <input type="number" min="1" max="12" class="input-card" placeholder="     ММ">
+							   /
+							   <input type="number" min="18" max="30" class="input-card" placeholder="       ГГ">
+							   
+                           </div>
+                                             
+                            <div class="cards__card__field__footcer__dcode">
+                               <p class="text-in-card">CVV/CVC <a href="#" class="help">&nbsp;&nbsp;?&nbsp;&nbsp;</a></p>
+                               <input type="text" class="input-card" size="3" maxlength="3" pattern="[0-9]{3}">
+                            </div>
+
+                       </div>
+
+                    </div>
+                </div>
+
+                <div class="cards__card card-recipient">
+                    <h2 class="card-name">
+                        Данные получателя
+                    </h2>
+                   <div class="cards__card__field">
+						<div class="logo">
+                            <img class="logo-image" src="img/visa.svg" alt="">
+                        </div>
+                        <p class="text-in-card number-card">
+                       Номер карты
+                       </p>
+					   <input type="text" id="number-recipient" class="input-card fullcardnumber" pattern="[0-9]{16}" size=40% maxlength="16">
+                   </div>
+                </div>
+           </div>
+			<div class="downside">
+				<div class="downside__input">
+					<input type="checkbox" name="vehicle1" value="check" checked/> Отправить чек на e-mail<br>
+                    <div class="box-input">
+                    <input type="email" class="input-summ" name="email" placeholder="Ваш e-mail">
+                    <span class="currency currency-hidden">BYN</span><br>
+                    </div><br>
+                    Сумма перевода<br>
+					<div class="box-input">
+                    <input type="number" class="input-summ" name="quantity" min="500" max="500000" placeholder="От 500 до 500000">
+                        <span class="currency">BYN</span>
+                    </div>
+                    <br>
+                    Итоговая сумма<br>
+                    <div class="box-input">
+                    <input type="number" class="input-summ" name="quantity2" min="680" max="530150" placeholder="От 680 до 530150">
+                        <span class="currency">BYN</span>
+                    </div>
+                </div>
+				<div class="downside__input2">
+					<input type="checkbox" name="vehicle2" value="addmessage"> Добавить сообщение получателю
+                    <a href="#" class="help vehicle2__help">&nbsp;&nbsp;?&nbsp;&nbsp;</a>
+				</div>
+			
+			
+			</div>
+			<div class="enter">
+			<input type="submit" class="enter__button" value="Перевести">
+			</div>
+            <br><br>
+            <div class="box-choice-currency box">
+            <p>Настройки</p>
+            Валюта платежа:<br>
+            BYN <input  type = "radio" name = "choice-currency" value =  "BYN" checked>
+            RUB <input type = "radio" name = "choice-currency" value =  "RUB"> <br>
+            </div>
+            <div class="box-choice-color box">
+                 Цвет кнопки:<br>
+                 <div class="red-button colorr">Красный</div>
+                 <div class="blue-button colorr">Синий</div>
+                 <div class="green-button colorr">Зеленый</div>
+            </div>
+</div>
+</form>
+<script language="javascript">
+
+            const element = document.querySelector('form');
+            var fullnumbers= document.querySelectorAll(".logo-image");
+            var buttonn = document.querySelector('.enter__button');
+            var col = document.querySelectorAll(".colorr");
+            var cur = document.querySelectorAll(".currency");
+            var curo = document.getElementsByName('choice-currency');
+            var boxchoicecurrency = document.querySelector('.box-choice-currency');
+
+                    element.addEventListener('keyup', event => {
+                        event.preventDefault();
+                        if (document.getElementById('number-sender').value.length>=1){
+                            if (document.getElementById('number-sender').value[0]==4) {
+                               fullnumbers[0].setAttribute("style", "visibility: visible;");
+                               fullnumbers[0].setAttribute("src", "img/visa.svg");
+                            } else if (document.getElementById('number-sender').value[0]==5){
+                                        fullnumbers[0].setAttribute("style", "visibility: visible;");
+                                        fullnumbers[0].setAttribute("src", "img/mastercard.svg");
+                                    } else if (document.getElementById('number-sender').value[0]==6) {
+                                            fullnumbers[0].setAttribute("style", "visibility: visible;");
+                                            fullnumbers[0].setAttribute("src", "img/maestro.svg");
+                                            }
+                        }else{
+                            fullnumbers[0].setAttribute("style", "visibility: hidden;");
+                            }
+                        if (document.getElementById('number-recipient').value.length>=1){
+                             if (document.getElementById('number-recipient').value[0]==4) {
+                                 fullnumbers[1].setAttribute("style", "visibility: visible;");
+                                 fullnumbers[1].setAttribute("src", "img/visa.svg");
+                             }else if (document.getElementById('number-recipient').value[0]==5){
+                                        fullnumbers[1].setAttribute("style", "visibility: visible;");
+                                        fullnumbers[1].setAttribute("src", "img/mastercard.svg");
+                                   } else if (document.getElementById('number-recipient').value[0]==6){
+                                             fullnumbers[1].setAttribute("style", "visibility: visible;");
+                                             fullnumbers[1].setAttribute("src", "img/maestro.svg");
+                                            }
+                        }
+                    });
+
+            col[0].addEventListener('click', event => {
+                buttonn.setAttribute("style", "background: red;");
+            });
+            col[1].addEventListener('click', event => {
+                buttonn.setAttribute("style", "background: blue;");
+            });
+            col[2].addEventListener('click', event => {
+                buttonn.setAttribute("style", "background: green;");
+            });
+
+
+
+            boxchoicecurrency.addEventListener('click', event =>
+            {
+                if (curo[0].checked)
+            {
+                cur[1].innerHTML = "BYN";
+                cur[2].innerHTML = "BYN";
+            } else
+                    {
+                        cur[1].innerHTML = "RUB";
+                        cur[2].innerHTML = "RUB";
+                    }
+            });
+
+
+</script>
+-->
+</body>
+</html>
